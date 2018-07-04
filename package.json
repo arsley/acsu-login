@@ -1,0 +1,15 @@
+{
+  "name": "acsu-login",
+  "version": "1.0.0",
+  "description": "Auto authentication with node to ACSU",
+  "main": "login.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.1",
+    "readline-sync": "^1.4.9"
+  },
+  "scripts": {
+    "acsulogin": "node login.js"
+  }
+}
