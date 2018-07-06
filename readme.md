@@ -34,6 +34,16 @@ Education number > *your education number*
 Password > *your password (printed '*')*
 ```
 
+## Build
+
+```
+yarn build:mac
+# or
+yarn build:win
+```
+
+See `package.json` (no linux compilation setting).
+
 ## Dependencies
 
 - axios (Accsess to login page)
