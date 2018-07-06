@@ -10,6 +10,11 @@
     "readline-sync": "^1.4.9"
   },
   "scripts": {
-    "acsulogin": "node login.js"
+    "acsulogin": "node login.js",
+    "build:mac": "pkg login.js -t node10-macos-x64 -o acin",
+    "build:win": "pkg login.js -t node10-win-x64 -o acin"
+  },
+  "devDependencies": {
+    "pkg": "^4.3.3"
   }
 }
