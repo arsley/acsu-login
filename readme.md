@@ -42,7 +42,10 @@ yarn build:mac
 yarn build:win
 ```
 
-See `package.json` (no linux compilation setting).
+See `package.json "scripts": { ... }` (no linux compilation setting).
+
+This will create binary file `acin`.
+Move it to specified location from $PATH (i.e. /usr/local/bin).
 
 ## Dependencies
 
