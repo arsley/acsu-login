@@ -29,6 +29,6 @@ axios
     );
   })
   .catch(function(error) {
-    console.error(chalk.red('Somethings wrong...'));
-    console.info(chalk.blue('Send issue to author!'));
+    console.error(chalk.red(error));
+    console.info(chalk.blue('Send issue to author with error message!'));
   });
