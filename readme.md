@@ -5,7 +5,7 @@ ACSU authenticate from console with Node/JavaScript:tada:
 ## Prerequisites
 
 - node
-- yarn (recommended) of npm
+- yarn (recommended) or npm
 
 ## Setup
 
