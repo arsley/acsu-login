@@ -15,12 +15,7 @@ function assertLogin(response) {
 }
 
 axios
-  .get('https://login.shinshu-u.ac.jp/cgi-bin/Login.cgi', {
-    params: {
-      uid: uid,
-      pwd: pwd
-    }
-  })
+  .get('https://login.shinshu-u.ac.jp/cgi-bin/Login.cgi', { params: { uid, pwd } })
   .then(function(response) {
     console.log(
       assertLogin(response)
